@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F57A73A1D10343200021434 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57A7391D10343200021434 /* AppDelegate.swift */; };
+		3F57A73C1D10343200021434 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57A73B1D10343200021434 /* ViewController.swift */; };
+		3F57A73F1D10343200021434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F57A73D1D10343200021434 /* Main.storyboard */; };
+		3F57A7411D10343200021434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F57A7401D10343200021434 /* Assets.xcassets */; };
+		3F57A7441D10343300021434 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F57A7421D10343300021434 /* LaunchScreen.storyboard */; };
+		3F57A74C1D10353700021434 /* synonimVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57A74B1D10353700021434 /* synonimVC.swift */; };
+		3F63B1701D103C0A005F90AF /* WordnikPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63B16F1D103C0A005F90AF /* WordnikPageVC.swift */; };
+		3F63B1721D103C53005F90AF /* ContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63B1711D103C53005F90AF /* ContentVC.swift */; };
+		5ED7010E2C7C3DF8B2A1C402 /* Pods_wordnik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8589F012883C8CD005293481 /* Pods_wordnik.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F57A7361D10343200021434 /* wordnik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordnik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F57A7391D10343200021434 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F57A73B1D10343200021434 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F57A73E1D10343200021434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F57A7401D10343200021434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F57A7431D10343300021434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F57A7451D10343300021434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F57A74B1D10353700021434 /* synonimVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = synonimVC.swift; sourceTree = "<group>"; };
+		3F63B16F1D103C0A005F90AF /* WordnikPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordnikPageVC.swift; sourceTree = "<group>"; };
+		3F63B1711D103C53005F90AF /* ContentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentVC.swift; sourceTree = "<group>"; };
+		65CC90E9C8953984B4B4D473 /* Pods-wordnik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wordnik.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wordnik/Pods-wordnik.debug.xcconfig"; sourceTree = "<group>"; };
+		8589F012883C8CD005293481 /* Pods_wordnik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wordnik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD8D3D98E7879375FAA64F4 /* Pods-wordnik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wordnik.release.xcconfig"; path = "Pods/Target Support Files/Pods-wordnik/Pods-wordnik.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F57A7331D10343200021434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED7010E2C7C3DF8B2A1C402 /* Pods_wordnik.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3210FD666035FD4099D16928 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65CC90E9C8953984B4B4D473 /* Pods-wordnik.debug.xcconfig */,
+				ACD8D3D98E7879375FAA64F4 /* Pods-wordnik.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		36EA44046D18D7BE043AD064 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8589F012883C8CD005293481 /* Pods_wordnik.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F57A72D1D10343200021434 = {
+			isa = PBXGroup;
+			children = (
+				3F57A7381D10343200021434 /* wordnik */,
+				3F57A7371D10343200021434 /* Products */,
+				3210FD666035FD4099D16928 /* Pods */,
+				36EA44046D18D7BE043AD064 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F57A7371D10343200021434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F57A7361D10343200021434 /* wordnik.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F57A7381D10343200021434 /* wordnik */ = {
+			isa = PBXGroup;
+			children = (
+				3F57A7391D10343200021434 /* AppDelegate.swift */,
+				3F57A73B1D10343200021434 /* ViewController.swift */,
+				3F63B1711D103C53005F90AF /* ContentVC.swift */,
+				3F63B16F1D103C0A005F90AF /* WordnikPageVC.swift */,
+				3F57A74B1D10353700021434 /* synonimVC.swift */,
+				3F57A73D1D10343200021434 /* Main.storyboard */,
+				3F57A7401D10343200021434 /* Assets.xcassets */,
+				3F57A7421D10343300021434 /* LaunchScreen.storyboard */,
+				3F57A7451D10343300021434 /* Info.plist */,
+			);
+			path = wordnik;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F57A7351D10343200021434 /* wordnik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F57A7481D10343300021434 /* Build configuration list for PBXNativeTarget "wordnik" */;
+			buildPhases = (
+				E213E57707CD28882A66AB55 /* [CP] Check Pods Manifest.lock */,
+				3F57A7321D10343200021434 /* Sources */,
+				3F57A7331D10343200021434 /* Frameworks */,
+				3F57A7341D10343200021434 /* Resources */,
+				6FA5A66531353C70C8A0E9C2 /* [CP] Embed Pods Frameworks */,
+				239476F9D3364962F4107B6B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wordnik;
+			productName = wordnik;
+			productReference = 3F57A7361D10343200021434 /* wordnik.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F57A72E1D10343200021434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alibek Manabayev";
+				TargetAttributes = {
+					3F57A7351D10343200021434 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 22S99M8DR3;
+					};
+				};
+			};
+			buildConfigurationList = 3F57A7311D10343200021434 /* Build configuration list for PBXProject "wordnik" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F57A72D1D10343200021434;
+			productRefGroup = 3F57A7371D10343200021434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F57A7351D10343200021434 /* wordnik */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F57A7341D10343200021434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F57A7441D10343300021434 /* LaunchScreen.storyboard in Resources */,
+				3F57A7411D10343200021434 /* Assets.xcassets in Resources */,
+				3F57A73F1D10343200021434 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		239476F9D3364962F4107B6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wordnik/Pods-wordnik-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FA5A66531353C70C8A0E9C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wordnik/Pods-wordnik-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E213E57707CD28882A66AB55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F57A7321D10343200021434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F57A74C1D10353700021434 /* synonimVC.swift in Sources */,
+				3F57A73C1D10343200021434 /* ViewController.swift in Sources */,
+				3F63B1721D103C53005F90AF /* ContentVC.swift in Sources */,
+				3F63B1701D103C0A005F90AF /* WordnikPageVC.swift in Sources */,
+				3F57A73A1D10343200021434 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F57A73D1D10343200021434 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F57A73E1D10343200021434 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F57A7421D10343300021434 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F57A7431D10343300021434 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F57A7461D10343300021434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F57A7471D10343300021434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F57A7491D10343300021434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65CC90E9C8953984B4B4D473 /* Pods-wordnik.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = wordnik/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = manny.wordnik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F57A74A1D10343300021434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD8D3D98E7879375FAA64F4 /* Pods-wordnik.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = wordnik/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = manny.wordnik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F57A7311D10343200021434 /* Build configuration list for PBXProject "wordnik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F57A7461D10343300021434 /* Debug */,
+				3F57A7471D10343300021434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F57A7481D10343300021434 /* Build configuration list for PBXNativeTarget "wordnik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F57A7491D10343300021434 /* Debug */,
+				3F57A74A1D10343300021434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F57A72E1D10343200021434 /* Project object */;
+}

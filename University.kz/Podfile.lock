@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (3.4.1)
+  - Backendless (3.0.27)
+  - DropDownTableView (0.5.2)
+  - KFSwiftImageLoader (2.0.1)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - Backendless
+  - DropDownTableView
+  - KFSwiftImageLoader (~> 2.0)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  Backendless: 565a82d9aa6ec01257e904e0a5c0146ffdb503ed
+  DropDownTableView: 09ec025a175e06e0dd833bec3dda0ba93ba2669c
+  KFSwiftImageLoader: a2b8a33a89116c767e7af8d2c109e8c483037b19
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 51ab8f9690a371400a5efeb3e8c6a9fa02220588
+
+COCOAPODS: 1.0.1

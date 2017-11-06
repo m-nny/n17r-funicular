@@ -1,0 +1,15 @@
+PODS:
+  - Backendless (3.0.27)
+  - KFSwiftImageLoader (2.0.1)
+
+DEPENDENCIES:
+  - Backendless
+  - KFSwiftImageLoader (~> 2.0)
+
+SPEC CHECKSUMS:
+  Backendless: 565a82d9aa6ec01257e904e0a5c0146ffdb503ed
+  KFSwiftImageLoader: a2b8a33a89116c767e7af8d2c109e8c483037b19
+
+PODFILE CHECKSUM: 12f7f87e8af40568f3908eb56c797a3060c446b9
+
+COCOAPODS: 1.0.1

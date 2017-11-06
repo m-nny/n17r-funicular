@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2BC4CF1D1937CD00756FF2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2BC4CE1D1937CD00756FF2 /* Post.swift */; };
+		3F2BC4D11D193D6300756FF2 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2BC4D01D193D6300756FF2 /* PostTableViewCell.swift */; };
+		3F2BC4D31D1950F400756FF2 /* ProfileDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2BC4D21D1950F400756FF2 /* ProfileDetailsViewController.swift */; };
+		3F2BC4D51D19541C00756FF2 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2BC4D41D19541C00756FF2 /* ContactsViewController.swift */; };
+		3F2BC4D71D1961BC00756FF2 /* AnotherPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2BC4D61D1961BC00756FF2 /* AnotherPostTableViewCell.swift */; };
+		3F88A9841D1A69D4009DA430 /* LikesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F88A9831D1A69D4009DA430 /* LikesTableViewCell.swift */; };
+		3F88A9861D1A982F009DA430 /* PostsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F88A9851D1A982F009DA430 /* PostsTableView.swift */; };
+		3FC713661D1914DC007DD538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC713651D1914DC007DD538 /* AppDelegate.swift */; };
+		3FC7136B1D1914DD007DD538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC713691D1914DD007DD538 /* Main.storyboard */; };
+		3FC7136D1D1914DD007DD538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC7136C1D1914DD007DD538 /* Assets.xcassets */; };
+		3FC713701D1914DD007DD538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC7136E1D1914DD007DD538 /* LaunchScreen.storyboard */; };
+		3FC7137C1D191AD0007DD538 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7137B1D191AD0007DD538 /* LoginViewController.swift */; };
+		3FC7137E1D191B44007DD538 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7137D1D191B44007DD538 /* ProfileViewController.swift */; };
+		3FC713801D191B84007DD538 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7137F1D191B84007DD538 /* FeedViewController.swift */; };
+		3FFCE21F1D229D9E0054FA21 /* PostLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFCE21E1D229D9E0054FA21 /* PostLike.swift */; };
+		3FFCE2211D229EF70054FA21 /* AccessBackendless.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFCE2201D229EF70054FA21 /* AccessBackendless.swift */; };
+		B59DE0B5DFC06438570870C5 /* Pods_SuretGramm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2A51258B62EF8CF95AB808 /* Pods_SuretGramm.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2522951FFC7AB58B77FC895A /* Pods-SuretGramm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuretGramm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuretGramm/Pods-SuretGramm.debug.xcconfig"; sourceTree = "<group>"; };
+		3A2A51258B62EF8CF95AB808 /* Pods_SuretGramm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuretGramm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2BC4CE1D1937CD00756FF2 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3F2BC4D01D193D6300756FF2 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		3F2BC4D21D1950F400756FF2 /* ProfileDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileDetailsViewController.swift; sourceTree = "<group>"; };
+		3F2BC4D41D19541C00756FF2 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		3F2BC4D61D1961BC00756FF2 /* AnotherPostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherPostTableViewCell.swift; sourceTree = "<group>"; };
+		3F88A9831D1A69D4009DA430 /* LikesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikesTableViewCell.swift; sourceTree = "<group>"; };
+		3F88A9851D1A982F009DA430 /* PostsTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableView.swift; sourceTree = "<group>"; };
+		3FC713621D1914DC007DD538 /* SuretGramm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuretGramm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC713651D1914DC007DD538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FC7136A1D1914DD007DD538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FC7136C1D1914DD007DD538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FC7136F1D1914DD007DD538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FC713711D1914DD007DD538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC7137B1D191AD0007DD538 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3FC7137D1D191B44007DD538 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3FC7137F1D191B84007DD538 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		3FFCE21E1D229D9E0054FA21 /* PostLike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostLike.swift; sourceTree = "<group>"; };
+		3FFCE2201D229EF70054FA21 /* AccessBackendless.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessBackendless.swift; sourceTree = "<group>"; };
+		AD833697E08C34533B578567 /* Pods-SuretGramm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuretGramm.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuretGramm/Pods-SuretGramm.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FC7135F1D1914DC007DD538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59DE0B5DFC06438570870C5 /* Pods_SuretGramm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B0825BEB717851A0A5F564B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A2A51258B62EF8CF95AB808 /* Pods_SuretGramm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FC713591D1914DC007DD538 = {
+			isa = PBXGroup;
+			children = (
+				3FC713641D1914DC007DD538 /* SuretGramm */,
+				3FC713631D1914DC007DD538 /* Products */,
+				F3D8E468F357456DD6C0ECD3 /* Pods */,
+				2B0825BEB717851A0A5F564B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FC713631D1914DC007DD538 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC713621D1914DC007DD538 /* SuretGramm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FC713641D1914DC007DD538 /* SuretGramm */ = {
+			isa = PBXGroup;
+			children = (
+				3FC7137A1D1915B1007DD538 /* ViewController */,
+				3FC713791D1915AC007DD538 /* View */,
+				3FC713781D1915A7007DD538 /* Model */,
+				3FC713771D19159C007DD538 /* Supporting files */,
+				3FC713691D1914DD007DD538 /* Main.storyboard */,
+			);
+			path = SuretGramm;
+			sourceTree = "<group>";
+		};
+		3FC713771D19159C007DD538 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				3FC713651D1914DC007DD538 /* AppDelegate.swift */,
+				3FC7136C1D1914DD007DD538 /* Assets.xcassets */,
+				3FC7136E1D1914DD007DD538 /* LaunchScreen.storyboard */,
+				3FC713711D1914DD007DD538 /* Info.plist */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		3FC713781D1915A7007DD538 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F2BC4CE1D1937CD00756FF2 /* Post.swift */,
+				3FFCE21E1D229D9E0054FA21 /* PostLike.swift */,
+				3FFCE2201D229EF70054FA21 /* AccessBackendless.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3FC713791D1915AC007DD538 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F2BC4D01D193D6300756FF2 /* PostTableViewCell.swift */,
+				3F2BC4D61D1961BC00756FF2 /* AnotherPostTableViewCell.swift */,
+				3F88A9831D1A69D4009DA430 /* LikesTableViewCell.swift */,
+				3F88A9851D1A982F009DA430 /* PostsTableView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3FC7137A1D1915B1007DD538 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3FC7137B1D191AD0007DD538 /* LoginViewController.swift */,
+				3FC7137D1D191B44007DD538 /* ProfileViewController.swift */,
+				3FC7137F1D191B84007DD538 /* FeedViewController.swift */,
+				3F2BC4D21D1950F400756FF2 /* ProfileDetailsViewController.swift */,
+				3F2BC4D41D19541C00756FF2 /* ContactsViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		F3D8E468F357456DD6C0ECD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2522951FFC7AB58B77FC895A /* Pods-SuretGramm.debug.xcconfig */,
+				AD833697E08C34533B578567 /* Pods-SuretGramm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FC713611D1914DC007DD538 /* SuretGramm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC713741D1914DD007DD538 /* Build configuration list for PBXNativeTarget "SuretGramm" */;
+			buildPhases = (
+				7476DF4963245D21D5257CA6 /* [CP] Check Pods Manifest.lock */,
+				3FC7135E1D1914DC007DD538 /* Sources */,
+				3FC7135F1D1914DC007DD538 /* Frameworks */,
+				3FC713601D1914DC007DD538 /* Resources */,
+				E8338C685A7A3581D106B9B7 /* [CP] Embed Pods Frameworks */,
+				1B59D5A85E4B6636843B74A6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuretGramm;
+			productName = SuretGramm;
+			productReference = 3FC713621D1914DC007DD538 /* SuretGramm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FC7135A1D1914DC007DD538 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alibek Manabayev";
+				TargetAttributes = {
+					3FC713611D1914DC007DD538 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 22S99M8DR3;
+					};
+				};
+			};
+			buildConfigurationList = 3FC7135D1D1914DC007DD538 /* Build configuration list for PBXProject "SuretGramm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FC713591D1914DC007DD538;
+			productRefGroup = 3FC713631D1914DC007DD538 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FC713611D1914DC007DD538 /* SuretGramm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FC713601D1914DC007DD538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC713701D1914DD007DD538 /* LaunchScreen.storyboard in Resources */,
+				3FC7136D1D1914DD007DD538 /* Assets.xcassets in Resources */,
+				3FC7136B1D1914DD007DD538 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B59D5A85E4B6636843B74A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuretGramm/Pods-SuretGramm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7476DF4963245D21D5257CA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8338C685A7A3581D106B9B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuretGramm/Pods-SuretGramm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FC7135E1D1914DC007DD538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC7137E1D191B44007DD538 /* ProfileViewController.swift in Sources */,
+				3FC7137C1D191AD0007DD538 /* LoginViewController.swift in Sources */,
+				3F88A9841D1A69D4009DA430 /* LikesTableViewCell.swift in Sources */,
+				3F2BC4D31D1950F400756FF2 /* ProfileDetailsViewController.swift in Sources */,
+				3FC713801D191B84007DD538 /* FeedViewController.swift in Sources */,
+				3F2BC4D71D1961BC00756FF2 /* AnotherPostTableViewCell.swift in Sources */,
+				3FC713661D1914DC007DD538 /* AppDelegate.swift in Sources */,
+				3FFCE21F1D229D9E0054FA21 /* PostLike.swift in Sources */,
+				3F2BC4D51D19541C00756FF2 /* ContactsViewController.swift in Sources */,
+				3F2BC4CF1D1937CD00756FF2 /* Post.swift in Sources */,
+				3F88A9861D1A982F009DA430 /* PostsTableView.swift in Sources */,
+				3FFCE2211D229EF70054FA21 /* AccessBackendless.swift in Sources */,
+				3F2BC4D11D193D6300756FF2 /* PostTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FC713691D1914DD007DD538 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC7136A1D1914DD007DD538 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FC7136E1D1914DD007DD538 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC7136F1D1914DD007DD538 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FC713721D1914DD007DD538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FC713731D1914DD007DD538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FC713751D1914DD007DD538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2522951FFC7AB58B77FC895A /* Pods-SuretGramm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SuretGramm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.manny.SuretGramm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FC713761D1914DD007DD538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD833697E08C34533B578567 /* Pods-SuretGramm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SuretGramm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.manny.SuretGramm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FC7135D1D1914DC007DD538 /* Build configuration list for PBXProject "SuretGramm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC713721D1914DD007DD538 /* Debug */,
+				3FC713731D1914DD007DD538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC713741D1914DD007DD538 /* Build configuration list for PBXNativeTarget "SuretGramm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC713751D1914DD007DD538 /* Debug */,
+				3FC713761D1914DD007DD538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FC7135A1D1914DC007DD538 /* Project object */;
+}
